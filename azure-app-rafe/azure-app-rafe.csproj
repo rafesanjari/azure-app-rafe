@@ -5,6 +5,12 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <RootNamespace>azure_app_rafe</RootNamespace>
+    <ApplicationInsightsResourceId>/subscriptions/776e343e-5f66-4b7a-9ccc-e6f16838bc2c/resourceGroups/az-group-rg/providers/microsoft.insights/components/azure-app-rafe</ApplicationInsightsResourceId>
+    <UserSecretsId>6119eda1-9916-4d8f-b173-9ead0bc69028</UserSecretsId>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.21.0" />
+  </ItemGroup>
 
 </Project>
